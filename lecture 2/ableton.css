@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+}
+.header{
+    background-color: aliceblue;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    display: flex;
+}
+.container{
+    display: flex;
+}
+.container-1 a{
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.container-2 a{
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.container-1{
+    display: flex;
+    gap: 20px;
+    margin-top: 22px;
+    margin-left: 20px;
+}
+.container-2{
+    display: flex;
+    gap: 20px;
+    margin-left: 400px;
+    margin-top: 22px;   
+}
+.image-container > .text {
+    position: absolute;
+    color: red;
+    font-size: 100px;
+}
+.image-container{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
