@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Random User Generator</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body class="bg-gray-100 text-black flex flex-col items-center justify-center min-h-screen">
+
+  <h1 class="text-2xl font-bold mb-4">Random User Generator</h1>
+
+  <div class="bg-white border p-4 rounded text-center w-72">
+    <img src="" alt="User Image" id="user-img" class="w-20 h-20 rounded-full mx-auto mb-2" />
+    <h2 id="user-name" class="text-lg font-medium"></h2>
+    <p id="user-email" class="text-sm"></p>
+    <p id="user-location" class="text-sm"></p>
+  </div>
+
+  <button id="refresh-btn" class="mt-4 px-4 py-1 bg-black text-white rounded text-sm">
+    Get New User
+  </button>
+
+  <script src="main.js"></script>
+</body>
+</html>
