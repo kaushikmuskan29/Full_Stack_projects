@@ -1,0 +1,86 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(90deg, #ff9a9e 0%, #fecfef 50%, #fecfef 100%);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  width: 90%;
+  margin: 40px auto;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.main-title {
+  font-size: 40px;
+  color: white;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: white;
+}
+
+.search-box {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 20px;
+  max-width: 600px;
+  width: 90%;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 85%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f06292;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.recipe-card {
+  background: white;
+  max-width: 700px;
+  margin: 20px auto;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: left;
+  width: 90%;
+}
+
+.recipe-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.details div {
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+}
+
+a {
+  color: #f06292;
+}

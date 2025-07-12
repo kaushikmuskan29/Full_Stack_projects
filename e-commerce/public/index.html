@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Commerce</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-pink-50 p-6 min-h-screen">
+  <div class="max-w-2xl mx-auto bg-white shadow-lg rounded-xl p-6">
+    <h1 class="text-3xl font-bold text-pink-600 mb-6 text-center">E-Commerce Products</h1>
+
+    <input id="searchBox" type="text" placeholder="Search products..." 
+      class="border border-pink-300 rounded-full p-2 px-4 w-full mb-6 focus:outline-pink-300" />
+
+    <div id="productList" class="space-y-4 mb-8"></div>
+
+    <h2 class="text-2xl font-semibold text-pink-500 mb-4">Add a New Product</h2>
+
+    <input id="name" placeholder="Product Name" 
+      class="border border-gray-300 rounded p-2 w-full mb-3 focus:outline-pink-300" />
+
+    <input id="price" placeholder="Price (₹)" type="number" 
+      class="border border-gray-300 rounded p-2 w-full mb-3 focus:outline-pink-300" />
+
+    <input id="description" placeholder="Description" 
+      class="border border-gray-300 rounded p-2 w-full mb-3 focus:outline-pink-300" />
+
+    <button onclick="addProduct()" 
+      class="bg-pink-500 hover:bg-pink-600 text-white font-semibold px-6 py-2 rounded-full transition-all duration-300">
+      Add Product
+    </button>
+<div id="editSection" class="hidden">
+  <h2 class="text-2xl font-semibold text-pink-500 mt-8 mb-4">Edit Product</h2>
+
+  <input id="editId" type="hidden" />
+
+  <input id="editName" placeholder="Product Name" 
+    class="border border-gray-300 rounded p-2 w-full mb-3 focus:outline-pink-300" />
+
+  <input id="editPrice" placeholder="Price (₹)" type="number" 
+    class="border border-gray-300 rounded p-2 w-full mb-3 focus:outline-pink-300" />
+
+  <input id="editDescription" placeholder="Description" 
+    class="border border-gray-300 rounded p-2 w-full mb-3 focus:outline-pink-300" />
+
+  <button onclick="editProduct()" 
+    class="bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-2 rounded-full transition-all duration-300">
+    Save Changes
+  </button>
+</div>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
